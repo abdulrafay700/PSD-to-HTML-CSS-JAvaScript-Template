@@ -161,7 +161,7 @@ nav ul li a:hover{
 
 .home-container .left-side  .text-content{
     position: absolute;
-    top: 10%;
+    /* top: 10%; */
 }
 .home-container .left-side h1{
     font-family: 'Krub', sans-serif;
@@ -219,8 +219,8 @@ nav ul li a:hover{
 
 
 .home-container .main-circle {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
     background-color: var(--main-color);
     /* Remove the second 'border-radius' property, as it's duplicated */
