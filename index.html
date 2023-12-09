@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Site</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous"></script>
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@200;700&display=swap" rel="stylesheet">
+    <!-- custom css -->
+    <link rel="stylesheet" href="stylesheet.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- OWL CAROUSEL css-->
+    <link rel="stylesheet" href="owl carusel assests/CSS/owl.carousel.css">
+    <link rel="stylesheet" href="owl carusel assests/CSS/owl.theme.green.css">
+
+    <!-- jquery for owl carousel -->
+    <script src="owl carusel assests/JS/jquery.min.js"></script>
+    <script src="owl carusel assests/JS/owl.carousel.min.js"></script>
+    
+</head>
+
+<body>
+    <!-- navigation  start -->
+            <nav class="nav">
+                <div class="logo">
+                    <h4>your logo</h4>
+                </div>
+                <div class="menu-icon">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+
+                <ul>
+                    <li><a href="#home-nav">Home</a></li>
+                    <li><a href="#course-nav">Courses</a></li>
+                    <li><a href="#about-nav">About</a></li>
+                    <li><a href="#blog-nav">Blog</a></li>
+                    <li><a href="#signin-nav">Sing In</a></li>
+                </ul>
+            </nav>
+
+            <!-- main section sart -->
+    <div class="main" >
+        <!-- home section start -->
+        <div class="home-section" id="home-nav">
+            <!-- navigation end -->
+            <div class="home-container">
+                <div class="col-lg-2 col-sm-12 col-12   left-side">
+                    <div class="text-content">
+                        <h1>UI</h1>
+                        <h4>BEGINNER'S</h4>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-sm-12  col-12 medium-side">
+                    <!-- circle drwining and image -->
+                    <div class="main-circle"></div>
+                    <img class="image-fluid" src="images/main image.jpg" alt="">
+                    
+                </div>
+                <div class="col-lg-3 col-sm-12  col-12 right-side">
+                    <div class="text-content">
+                        <h4>Start guide for beginner
+                            designers</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore .</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- home section end -->
+
+        <!-- counter section -->
+        <section class="counter-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12 mb-5 justify-center">
+                        <div class="counters">
+                            <span class="prefix">+</span>
+                            <h5 id="number-counter" data-target="9000">150</h5>
+                            <h6><span class="prefix-text">Happy</span>Students</h6>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-12 mb-5 justify-center">
+                        <div class="counters">
+                            <span class="prefix">+</span>
+                            <h5 id="number-counter" data-target="2000">150</h5>
+                            <h6><span class="prefix-text">Happy</span>Students</h6>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-12 mb-5 justify-center">
+                        <div class="counters">
+                            <span class="prefix">+</span>
+                            <h5 id="number-counter" data-target="3000">150</h5>
+                            <h6><span class="prefix-text">Happy</span>Students</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- accept new challenge -->
+        <section class="course-section" id="course-nav">
+            <div class="left-side-content">
+                <p>accept new challange</p>
+            </div>
+            <div class="right-side-content">
+                <p>Discover Your Skills</p>
+            </div>
+            <div class="container">
+                <div class="row justify-center">
+                    <div class="col-8 .mid-text-content">
+                        <div class="shape-round">
+                            <div class="shape-circle1"></div>
+                            <div class="shape-circle2"></div>
+                            <div class="text-content">
+                                <p id="acceptText">Accept</p>
+                                <p id="newText">New</p>
+                                <p>challanges</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h5 id="explore-light-heading">Explore</h5>
+            <h5 id="about-light-heading">About</h5>
+            <span id="arrow"><i class="fa-solid fa-arrow-down-long fa-bounce"></i></span>
+        </section>
+        <!-- accept new challenge  end-->
+
+        <!-- find courses start -->
+        <section class="find-course">
+            <div class="flex space-between">
+                <div class="col-3">
+                    <h2 id="find-course-text-right"> <span>Find</span> your Course </h2>
+                </div>
+
+                <div class="col-0" id="find-course-text-left">
+                    <p>edition</p>
+                    <p>2023</p>
+                </div>
+            </div>
+
+            <div class="container-fluid course-card-section">
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6  mb-3">
+                        <div class="course-card">
+                            <div class="course-corner-text">
+                                <p style="text-align: center;">.01</p>
+                            </div>
+                            <div class="course-body">
+                                <div class="course-card-heading">
+                                    <h5>course <span> 01 </span> </h5>
+                                </div>
+                                <div class="course-card-description">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt ipsa nam
+                                        dignissimos
+                                        recusandae optio dicta autem! Aliquid ab, veniam, est reiciendis provident
+                                        dolore
+                                        doloremque autem suscipit voluptates vero accusantium officia?</p>
+                                </div>
+                                <div class="course-button">
+                                    <button type="button">Read More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="course-card">
+                            <div class="course-corner-text">
+                                <p style="text-align: center;">.02</p>
+                            </div>
+                            <div class="course-body">
+                                <div class="course-card-heading">
+                                    <h5>course <span> 02 </span> </h5>
+                                </div>
+                                <div class="course-card-description">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt ipsa nam
+                                        dignissimos
+                                        recusandae optio dicta autem! Aliquid ab, veniam, est reiciendis provident
+                                        dolore
+                                        doloremque autem suscipit voluptates vero accusantium officia?</p>
+                                </div>
+                                <div class="course-button">
+                                    <button type="button">Read More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="course-card">
+                            <div class="course-corner-text">
+                                <p style="text-align: center;">.03</p>
+                            </div>
+                            <div class="course-body">
+                                <div class="course-card-heading">
+                                    <h5>course <span> 03 </span> </h5>
+                                </div>
+                                <div class="course-card-description">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt ipsa nam
+                                        dignissimos
+                                        recusandae optio dicta autem! Aliquid ab, veniam, est reiciendis provident
+                                        dolore
+                                        doloremque autem suscipit voluptates vero accusantium officia?</p>
+                                </div>
+                                <div class="course-button">
+                                    <button type="button">Read More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="course-card">
+                            <div class="course-corner-text">
+                                <p style="text-align: center;">.04</p>
+                            </div>
+                            <div class="course-body">
+                                <div class="course-card-heading">
+                                    <h5>course <span> 04 </span> </h5>
+                                </div>
+                                <div class="course-card-description">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt ipsa nam
+                                        dignissimos
+                                        recusandae optio dicta autem! Aliquid ab, veniam, est reiciendis provident
+                                        dolore
+                                        doloremque autem suscipit voluptates vero accusantium officia?</p>
+                                </div>
+                                <div class="course-button">
+                                    <button type="button">Read More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- find courses end -->
+
+        <!-- about us -->
+        <section class="about-section" id="about-nav">
+            <div class="background-shape1">
+                <div class="shape-round">
+                    <div class="shape-circle1"></div>
+                </div>
+            </div>
+            <div class="background-shape2">
+                <div class="shape-round">
+                    <div class="shape-circle1"></div>
+                </div>
+            </div>
+
+            <div class="container about-container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 flex-colum">
+                        <h3>About <span>us.</span></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam ullam minima modi, delectus
+                            error quia et maxime dignissimos nesciunt eius consequatur quas cumque sunt laboriosam
+                            reiciendis, quam distinctio, rem consectetur?</p>
+
+                        <table>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li>Lorem ipsum dolor</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>Lorem ipsum dolor</li>
+                                    </ul>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li>Lorem ipsum dolor</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>Lorem ipsum dolor</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <button type="button" >READ MORE</button>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="aboutus-image">
+                            <div class="main-circle"></div>
+                            <img class="image-fluid" src="images/about image.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="dot-decoration"></div>
+        </section>
+        <!-- about us end -->
+
+        <!-- why us start -->
+        <section class="whyus-section" id="blog-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 whyus-left-side">
+                        <!-- electron shape -->
+        
+                        <div class="shape-round">
+                            <div class="shape-circle1"></div>
+                            <div class="shape-circle2"></div>
+                        </div>
+                        <div class="main-circle"></div>
+                        <img src="images/why us.png" class="img-fluid" alt="">
+        
+                        <!-- circle shape -->
+        
+                    </div>
+                    <div class="col-md-6 flex-colum">
+                        <h3>Why <span>us.</span></h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium qui quisquam nobis natus
+                            quia corporis quibusdam autem minus tempora. Nulla hic totam explicabo, adipisci illo
+                            voluptates eligendi illum sint necessitatibus.</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="dot-decoration"></div>
+            <div class="about-explore">EXPLORE</div>
+        </section>
+
+        <section class="testimonials">
+            <div class="title">
+                <h3>WHAT</h3>
+                <p>users think.</p>
+            </div>
+            <div class="container card-container ">
+                <div class="owl-carousel owl-theme">
+                    <!-- card 1 for carousel -->
+                    <div class="item">
+                        <div class="card" >
+                            <div class="card-body">
+                              <div class="card-img">
+                                      <img src="images/user1.jpg" alt="">
+                                </div>
+                                <div class="card-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="card-context">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, tenetur nulla vero consectetur
+                                        corrupti at dolorum voluptatem distinctio vitae aut ipsam fuga perspiciatis voluptatibus, similique
+                                        temporibus neque! Rerum, et recusandae.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 2 -->
+                    <div class="item">
+                        <div class="card" >
+                            <div class="card-body">
+                              <div class="card-img">
+                                      <img src="images/user2.jpg" alt="">
+                                </div>
+                                <div class="card-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="card-context">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, tenetur nulla vero consectetur
+                                        corrupti at dolorum voluptatem distinctio vitae aut ipsam fuga perspiciatis voluptatibus, similique
+                                        temporibus neque! Rerum, et recusandae.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card3 -->
+                    <div class="item">
+                        <div class="card" >
+                            <div class="card-body">
+                              <div class="card-img">
+                                      <img src="images/user3.jpg" alt="">
+                                </div>
+                                <div class="card-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="card-context">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, tenetur nulla vero consectetur
+                                        corrupti at dolorum voluptatem distinctio vitae aut ipsam fuga perspiciatis voluptatibus, similique
+                                        temporibus neque! Rerum, et recusandae.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- card 4 -->
+                    <div class="item">
+                        <div class="card" >
+                            <div class="card-body">
+                              <div class="card-img">
+                                      <img src="images/user1.jpg" alt="">
+                                </div>
+                                <div class="card-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="card-context">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, tenetur nulla vero consectetur
+                                        corrupti at dolorum voluptatem distinctio vitae aut ipsam fuga perspiciatis voluptatibus, similique
+                                        temporibus neque! Rerum, et recusandae.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 5 -->
+                    <div class="item">
+                        <div class="card" >
+                            <div class="card-body">
+                              <div class="card-img">
+                                      <img src="images/user2.jpg" alt="">
+                                </div>
+                                <div class="card-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="card-context">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, tenetur nulla vero consectetur
+                                        corrupti at dolorum voluptatem distinctio vitae aut ipsam fuga perspiciatis voluptatibus, similique
+                                        temporibus neque! Rerum, et recusandae.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 6 -->
+                    <div class="item">
+                        <div class="card" >
+                            <div class="card-body">
+                              <div class="card-img">
+                                      <img src="images/user3.jpg" alt="">
+                                </div>
+                                <div class="card-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="card-context">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, tenetur nulla vero consectetur
+                                        corrupti at dolorum voluptatem distinctio vitae aut ipsam fuga perspiciatis voluptatibus, similique
+                                        temporibus neque! Rerum, et recusandae.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- why us end -->
+
+        <!-- subscribe email -->
+        <section class="subscribe">
+            <div class="container">
+                <div class="row">
+                   
+                    <div class="col-md-6 subscribe-form">
+                        <h3>SUBSCRIBE</h3>
+                        <h4>to our newsletter</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+
+                        <form action="">
+                            <input type="text" name="" id="" placeholder="Name">
+                            <input type="email" name="" id="" placeholder="Mail">
+                            <input type="message" name="" id="" placeholder="Message">
+                            <button type="button">SEND MESSAGE</button>
+                        </form>
+                    </div>
+                   
+                </div>
+            </div>
+        </section>
+
+        <!-- subscsribe us end -->
+
+        <!-- footer -->
+        <section class="footer" id="signin-nav">
+              <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                        <h4>About</h4>
+                        <p>History</p>
+                        <p>Our Team </p>
+                        <p>Mission Statement</p>
+                        <p>Term & condition</p>
+                        <p>Privacy & POlicy</p>
+                    </div>
+                    <div class="col-md-2">
+                        <h4>what we do</h4>
+                        <p>News and stories</p>
+                        <p>Publications</p>
+                        <p>Take action </p>
+                        <p>Recomendations </p>
+                        <p>Help</p>
+    
+                    </div>
+                    <div class="col-md-8">
+                        <h4>Sign Up To Receive
+                            Our Newsletter</h4>
+                    </div>
+                </div>
+              </div>
+        </section>
+     <!-- main end -->
+    </div>
+
+        
+    </div>
+
+        
+
+
+
+ 
+
+
+</body>
+<script src="app.js"></script>
+</html>
